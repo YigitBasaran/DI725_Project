@@ -13,11 +13,18 @@ This project investigates the use of **Low-Rank Adaptation (LoRA)** for paramete
 
 ## 📁 Repository Structure
 
-- `DataPreprocessing_Paligemma_Training_Validation_Testing.ipynb`:  
-  Complete pipeline for data filtering, model preparation, LoRA integration, fine-tuning, and evaluation.
-  
-- `ExplonatoryDataAnalysis.ipynb`:  
-  Initial data exploration including caption length distribution, n-gram frequency, and duplication analysis.
+- `./notebooks`:  
+  - `DataPreprocessing_Paligemma_Training_Validation_Testing.ipynb`:  
+    Complete pipeline for data filtering, model preparation, LoRA integration, fine-tuning, and evaluation.
+    
+  - `ExplonatoryDataAnalysis.ipynb`:  
+    Initial data exploration including caption length distribution, n-gram frequency, and duplication analysis.
+
+- `./figures`: Contains figures of the project.
+
+- `./data`:
+  - `captions.csv`: Captions and related written data of the used dataset.
+  - `./Resized`: The folder contains the image data.        
 
 - `requirements.txt`:  
   Python dependencies required to run the notebooks and reproduce experiments.
