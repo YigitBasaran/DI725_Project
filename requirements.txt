@@ -1,0 +1,12 @@
+PIL
+datasets
+evaluate
+matplotlib
+nltk
+numpy
+pandas
+peft
+torch
+tqdm
+transformers
+wandb
