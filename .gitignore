@@ -1,3 +1,4 @@
-# Ignore RISC dataset and archive
+# Ignore RISC dataset, archive and video presentation
 RISCM.zip
 RISCM/
+video/
